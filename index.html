@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>BUBBLES</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" />
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- Js -->
+    <script type="text/javascript" src="js/interact.min.js"></script>
+    <script type="text/javascript" src="js/drag.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="showbox">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!-- Content -->
+    <button class="back">
+        <span></span>
+        <span>BACK</span>
+    </button>
+    <div id="bubbels"></div>
+    <ul class="cities_list"></ul>
+    <!-- Trash Zone -->
+    <div id="outer-dropzone" class="dropzone">
+        <div id="inner-dropzone" class="dropzone">Trash Zone</div>
+    </div>
+</body>
